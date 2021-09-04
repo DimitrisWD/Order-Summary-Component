@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.order-text {
+    padding: 5%;
+    text-align: center;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+}
+
+.annual-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.annual-plan-left {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.annual-plan-left div {
+    margin-left: 15px;
+}
+
+.annual-plan-left div h4 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-left div span {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.annual-plan a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cancel {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 14px;
+}
